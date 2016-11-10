@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>quiz</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+</head>
+<body>
+	<div class="container">
+		<form id="js-quiz-form" class="js-quiz-wrapper">
+		<div class="questDiv">
+			<span></span>
+		</div>
+			<span class="js-quest block"></span>
+			<label class="block"><input type="radio" id="option1" name="option"></label>
+			<label class="block"><input type="radio" id="option2" name="option"></label>
+			<label class="block"><input type="radio" id="option3" name="option"></label>
+			<label class="block"><input type="radio" id="option4" name="option"></label>
+			<button type= "submit" class="submitBtn">Submit Answer</button>
+			<div class="js-scoreDiv">
+				<span></span>
+			</div>
+		</form>
+		
+		<div style="display:none;" id="correct" class="imgDiv">
+	<img src="images/correct.png" alt="" width="100" height="123">
+	</div>
+	</div>
+	<div id="incorrectMsg" class="incorrectDiv" style="display:none">
+   <p class="js-correct-ans"><p>
+
+    <button type="submit" id="next">Next</button>
+    </div>
+    <div class="js-summary" style="display:none">
+    <h2 class="js-final-score"></h2>
+    	<hr>
+    <div class="js-Q-Section">
+    	<h3>Question</h3>
+    	
+    	<span class="block">Q1</span>
+    	<span class="block">Q2</span>
+    	<span class="block">Q3</span>
+    	<span class="block">Q4</span>
+    	<span class="block">Q5</span>
+    </div>
+    <div class="js-A-Section">
+    	<h3>Answer</h3>
+    </div>
+    </div>
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  	<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+/*
+		 Chris Coyier
+		 http://css-tricks.com
+*/
+
+*					{ margin: 0; padding: 0; }
+body				{ font-size: 62.5%; font-family: Georgia, serif; background: url(images/body-bg.jpg); }
+.floatLeft 			{ float: left; }
+.floatRight			{ float: right; }
+.clear				{ clear: both; }
+.layoutCenter		{ margin: 0 auto; }
+.textCenter			{ text-align: center; }
+.textRight			{ text-align: right; }
+.textLeft			{ text-align: left; }
+.hide				{ display: none; }
+.show				{ display: block; }
+.invisible			{ visibility: hidden; }
+
+img, div { behavior: url(iepngfix.htc) }
+
+div					{ padding: 10px; }
+div#page-wrap		{ width: 520px; margin: 20px auto; }
+div#mainContent     { width: 280px; float: left;
+	 				  background: url(images/transpBlack75.png);
+	                  color: white; }
+div#sideBar			{ width: 180px; float: right; }
+div#sideBar div		{ margin-bottom: 10px; }
+div#boxOne			{ background: url(images/transpOrange10.png);
+  					  color: black; }
+div#boxTwo			{ background: url(images/transpOrange25.png);
+  					  color: black; }
+div#boxThree		{ background: url(images/transpOrange50.png);
+		  			  color: black; }
+h3					{ background: url(images/transpBlue90.png);
+	  				  color: white; padding: 10px; margin-bottom: 10px; }
+a					{ background: url(images/transpRed25.png); color: black; text-decoration: none;}
+a:hover				{ background: url(images/transpRed50.png); color: black; text-decoration: none;}
